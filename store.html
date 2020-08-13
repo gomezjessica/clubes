@@ -62,8 +62,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col">
-          <!--table class="table table-striped table-responsive-sm < 576px"-->
-	  <table dir='rtl'><tr><td>Display Last</td><td>Display Second</td><td>Display First</td></table>
+          <table class="table table-striped table-responsive-sm < 576px">
+	  
 	  
 
           <div class="cta-inner text-center rounded">
@@ -72,8 +72,10 @@
                 <span class="section-heading-lower">Pruebas diagnosticas</span>
 		<p class="mb-3">Descripcion.........
               </h2>
-		  			
-					<thead>
+		  			<div class="scroll-div-tablas" id="TablaContenedor" style="height: 315px;">
+   					<table class="ListaTabla" id="Topicos_Datatable">
+       					<thead id="Topicos_Cabecera_Datos">
+					
 						
 						<tr>
 							<th>Prueba</th>
@@ -83,7 +85,7 @@
               
 						</tr>
 					</thead>
-					<tbody>
+					<tbody id="gtnp_Listado_Datos">
 						<tr>
 							<td>1</td>
 							<td>-</td>
